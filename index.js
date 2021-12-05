@@ -8,6 +8,12 @@ function askNumbers() {
  } else if (operator==='-') {
      alert(subtraction(firstNumber,secondNumber));
      }
+     else if (operator==='*') {
+        alert(multiplication(firstNumber,secondNumber));
+        }
+        else if (operator==='/') {
+            alert(division(firstNumber,secondNumber));
+        }
 }
  
   function addition(firstNumber, secondNumber){
