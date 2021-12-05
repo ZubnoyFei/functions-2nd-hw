@@ -1,5 +1,5 @@
 function askNumbers() {
-   // const firstNumber = +prompt(message: 'Type first number');
+  const firstNumber = +prompt(message: 'Type first number');
  const secondNumber = +prompt(message: 'Type second number');
  const operator = prompt(message: 'Enter operator (either +, -, * or / ');
  const result =('This is the result');
