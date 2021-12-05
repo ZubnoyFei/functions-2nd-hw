@@ -3,18 +3,6 @@ function askNumbers() {
  const secondNumber = +prompt(message: 'Type second number');
  const operator = prompt(message: 'Enter operator (either +, -, * or / ');
  const result =('This is the result');
- if (operator==='+') {
-     alert(add(firstNumber,secondNumber));
- } else if (operator==='-') {
-     alert(subtraction(firstNumber,secondNumber));
-     }
-     else if (operator==='*') {
-        alert(multiplication(firstNumber,secondNumber));
-        }
-        else if (operator==='/') {
-            alert(division(firstNumber,secondNumber));
-        }
-}
  
   function addition(firstNumber, secondNumber){
     return result=firstNumber+secondNumber ;
