@@ -26,7 +26,7 @@ function division(firstNumber, secondNumber){
 }
 
 }
-console.log(firstNumber, secondNumber, operator);
+
 
 if (operator==='+') {
     alert(add(firstNumber,secondNumber));
@@ -40,3 +40,4 @@ if (operator==='+') {
            alert(division(firstNumber,secondNumber));
        }
 }
+console.log(firstNumber, secondNumber, operator);
