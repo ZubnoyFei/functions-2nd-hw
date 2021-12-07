@@ -1,7 +1,7 @@
 function askNumbers() {
   const firstNumber = +prompt('Type first number');
  const secondNumber = +prompt('Type second number');
- const operator = prompt(message: 'Enter operator (either +, -, * or / ');
+ const operator = prompt('Enter operator (either +, -, * or / ');
  const result =('This is the result');
 
  
